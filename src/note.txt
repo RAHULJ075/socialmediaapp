@@ -1,0 +1,13 @@
+ { /* <Header />
+      <Nav />
+      <Home />
+      <NewPost />
+      <PostPage />
+      <About />
+      <Missing />
+      <Footer />*/}
+
+-react router 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+npx json-server -p 3500 -w data/db.json
